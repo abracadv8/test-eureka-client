@@ -49,4 +49,5 @@ will never update because the refresh updates the new bean and this one.  This
 is causing the list of configured services never to be updated.
 
 
-![](/readme/04eureka.png)
+![](/readme/04_eureka.png)
+![](/readme/04_eureka.png)
