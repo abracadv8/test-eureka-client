@@ -50,7 +50,6 @@ is causing the list of configured services never to be updated.
 
 
 ![](/readme/04_eureka.png)
-![](/readme/04_eureka.png)
 
 
 
