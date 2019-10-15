@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: ${SPRING_APPLICATION_NAME:test-eureka-client}
+  cloud:
+    config:
+      username: ${CLOUD_CONFIG_CLIENT:x}
+      password: ${CLOUD_CONFIG_PASSWORD:x}
+      enabled: false
+      fail-fast: true
+      label: master
+      request-read-timeout: 15000
+      request-connect-timeout: 5000
+      retry:
+        max-attempts: 5
+        initial-interval: 1000
+        multiplier: 1.2
+        max-interval: 3000
+      discovery:
+        service-id: cloudads-configserver
+        enabled: true
+encrypt:
+  fail-on-error: true
+  key: ${CLOUD_CONFIG_ENCRYPT_KEY:x}
+server:
+  ssl:
+    enabled: false
+eureka:
+  client:
+    enabled: true
+    register-with-eureka: false
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: ${CLOUD_EUREKA_SERVER_LIST}

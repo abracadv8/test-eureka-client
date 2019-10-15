@@ -1,0 +1,21 @@
+<configuration>
+
+    <springProperty name="defaultPattern" source="logging.logback.pattern"
+                    defaultValue="%d{yyyy-MM-dd HH:mm:ss.SSS} [%level] [%thread] [%logger{5}] %msg%n"/>
+
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender" additivity="false">
+        <encoder>
+            <pattern>${defaultPattern}</pattern>
+        </encoder>
+    </appender>
+
+
+
+    <root level="INFO">
+        <appender-ref ref="STDOUT"/>
+    </root>
+
+    <jmxConfigurator/>
+
+</configuration>
