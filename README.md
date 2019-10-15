@@ -58,7 +58,10 @@ Excerpt of logs:
 ```
 
 Connected to the target VM, address: '127.0.0.1:62139', transport: 'socket'
-2019-10-15 10:51:20.872 [INFO] [main] [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$bdd9e543] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-15 10:51:20.872 [INFO] [main] [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] 
+     Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type 
+     [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$bdd9e543] 
+     is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 2019-10-15 10:51:24.135 [INFO] [main] [o.s.c.c.u.InetUtils] Cannot determine local hostname
 2019-10-15 10:51:24.166 [INFO] [main] [o.s.c.n.e.InstanceInfoFactory] Setting initial instance status as: STARTING
 2019-10-15 10:52:41.184 [INFO] [main] [c.n.d.DiscoveryClient] Initializing Eureka in region us-east-1
@@ -90,7 +93,10 @@ Connected to the target VM, address: '127.0.0.1:62139', transport: 'socket'
 2019-10-15 10:52:45.706 [INFO] [main] [c.t.Main] The following profiles are active: QA
 2019-10-15 10:52:47.169 [WARN] [main] [o.s.b.a.e.EndpointId] Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
 2019-10-15 10:52:47.566 [INFO] [main] [o.s.c.c.s.GenericScope] BeanFactory id=2eefaf6b-1d8e-3aed-a21c-22476e296c3e
-2019-10-15 10:52:47.790 [INFO] [main] [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$bdd9e543] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-15 10:52:47.790 [INFO] [main] [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] 
+      Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type 
+      [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$bdd9e543] 
+      is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
 2019-10-15 10:52:48.478 [INFO] [main] [o.s.b.w.e.t.TomcatWebServer] Tomcat initialized with port(s): 9447 (http)
 2019-10-15 10:52:48.514 [INFO] [main] [o.a.c.h.Http11NioProtocol] Initializing ProtocolHandler ["http-nio-9447"]
 2019-10-15 10:52:48.533 [INFO] [main] [o.a.c.c.StandardService] Starting service [Tomcat]
